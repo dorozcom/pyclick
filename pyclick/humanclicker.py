@@ -26,6 +26,8 @@ class HumanClicker():
 
     def click(self):
         pyautogui.click()
+    def clickright(self):
+        pyautogui.click(button='right')
 
 
 
